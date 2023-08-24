@@ -1,0 +1,82 @@
+body 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+.major
+{
+  width: 457px;
+  height: 138px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin: 4px;
+}
+
+
+.image
+{
+  width: 130px;
+  height: 130px;
+  background-image: url('https://yt3.googleusercontent.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s176-c-k-c0x00ffffff-no-rj'); 
+  background-size: cover;
+  margin: 4px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.text
+{
+  margin-left: 0px;
+}
+
+.bold
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+
+
+.regular
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+
+.icon-group 
+{
+  display: flex; 
+  align-items: center;
+  margin-left: 2px;
+}
+
+.fa-solid
+{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.count {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;  
+  margin-right: 25px;
+  color: #858991;
+  padding-bottom: 3px;
+}

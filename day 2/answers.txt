@@ -1,0 +1,83 @@
+HTML:
+
+1. What is HTML?
+HTML stands for HyperText Markup Language. It's the standard language used to create and structure content on web pages. HTML uses a system of tags to define elements like headings, paragraphs, links, images, and more.
+
+Basic Structure of an HTML Page:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Title Here</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a basic HTML page.</p>
+</body>
+</html>
+
+
+2. Difference between Inline and Block Level Elements:
+
+Inline Elements: These elements do not create new lines and only take up as much width as necessary.
+Examples include <span>, <a>, <strong>.
+Block Level Elements: These elements create new lines and take up the full available width.
+Examples include <div>, <p>, <h1>.
+In short, inline elements stay within the flow of content, while block level elements create distinct blocks on the page. 
+
+CSS:
+
+/* 
+1. Different Ways CSS Can Be Applied to HTML:
+
+1.1 Inline CSS: Directly in HTML tags using style attribute. Not recommended for large-scale styling.
+1.2 Internal CSS: Within <style> tag in HTML <head>. Suitable for single-page styling.
+1.3 External CSS: In separate CSS file linked using <link> tag. Preferred for consistent styling across pages.
+Preferred Way:
+
+External CSS is preferred due to better organization, maintainability, and consistent styling.
+
+2. CSS Selectors:
+
+2.1 Element Selector: Targets by tag name. Example: p { color: blue; }
+2.2 Class Selector: Targets by class attribute. Example: .highlight { background-color: yellow; }
+2.3 ID Selector: Targets by unique ID attribute. Example: #header { font-size: 24px; }
+
+
+3. CSS Box Model:
+
+
++---------------------------------------------------+
+|                   Margin                          |
+|                                                   |
+|    +-----------------------------------------+    |
+|    |                 Border                  |    |
+|    |                                         |    |
+|    |    +-------------------------------+    |    |
+|    |    |           Padding             |    |    |
+|    |    |                               |    |    |
+|    |    |    +---------------------+    |    |    |
+|    |    |    |      Content        |    |    |    |
+|    |    |    |                     |    |    |    |
+|    |    |    +---------------------+    |    |    |
+|    |    |                               |    |    |
+|    |    +-------------------------------+    |    |
+|    |                                         |    |
+|    +-----------------------------------------+    |
+|                                                   |
++---------------------------------------------------+
+Content: Actual element content.
+Padding: Space between content and border.
+Border: Line surrounding padding and content.
+Margin: Space around the border. */
+
+JS:
+Q1. Ways to Add JavaScript to a Webpage:
+
+1. **Inline Script:** Adding JavaScript code directly within HTML tags using the `<script>` tag's `src` attribute or within a `<script>` tag itself.
+2. **Internal Script:** Placing JavaScript code within a `<script>` tag in the HTML `<head>` or at the end of the `<body>` section.
+3. **External Script:** Linking to an external JavaScript file using the `<script>` tag's `src` attribute.
+
+**Preferred Way:**
+Using **External Scripts** is generally preferred. This promotes separation of concerns, improves code reusability, allows for browser caching, and enhances maintainability. Placing scripts at the end of the `<body>` is also recommended to ensure that the HTML content loads before scripts, improving page loading speed.

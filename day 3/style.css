@@ -1,0 +1,41 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    /* grid-template-rows: 50px auto 50px; */
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "s s c c c c c c c c c c"
+    "s s c c c c c c c c c c"
+    "s s a a a a a b b b b b"
+    "s s a a a a a b b b b b"
+    "f f f f f f f f f f f f";
+
+}
+
+
+.header {
+    grid-area: h;
+}
+
+.sidebar { 
+    grid-area: s;
+}
+
+.content-1 {
+    grid-area: c;
+
+}
+.content-2 {
+    grid-area: a;
+ 
+}
+.content-3 {
+    grid-area: b;
+}
+
+.footer {
+    grid-area: f;
+}
